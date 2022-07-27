@@ -1,0 +1,71 @@
+@import '../../../../../public/assets/styles/variables';
+
+.wrapper {
+	border-radius: 15px;
+	padding: 1.5rem;
+	width: 80%;
+	margin: 3rem auto 0;
+	@include glassEffect;
+
+	.map {
+		/* height: 180px;
+		background-color: $gray; */
+		margin-top: 1.5rem;
+	}
+
+	.heading {
+		display: flex;
+		align-items: center;
+		margin-bottom: 1rem;
+
+		> h1 {
+			color: $white;
+			font-size: 22px;
+			margin: 0;
+			margin-left: 1rem;
+		}
+	}
+
+	> p {
+		color: $white;
+		opacity: 0.8;
+		line-height: 1.66;
+	}
+
+	.additional {
+		margin-top: 1rem;
+		display: flex;
+		align-items: center;
+
+		.rating {
+			margin-right: 1rem;
+			display: flex;
+			align-items: center;
+			padding: 8px 12px;
+			border-radius: 30px;
+			border: 2px solid rgba(255, 255, 255, 0.04);
+			
+			> span {
+				color: $white;
+				font-weight: bold;
+				margin-left: 0.5rem;
+				font-size: 15px;
+			}
+		}
+
+		.duration {
+			display: flex;
+			align-items: center;
+			padding: 8px 12px;
+			border-radius: 30px;
+			border: 2px solid rgba(255, 255, 255, 0.04);
+
+			> span {
+				color: $white;
+				font-weight: bold;
+				margin-left: 0.5rem;
+				font-size: 15px;
+			}
+		}
+	}
+}

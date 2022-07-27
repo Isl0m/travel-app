@@ -1,0 +1,274 @@
+Info 0    [18:16:30.434] Starting TS Server
+Info 1    [18:16:30.457] Version: 4.7.4
+Info 2    [18:16:30.457] Arguments: /home/islom/.nvm/versions/node/v16.14.2/bin/node /home/islom/.nvm/versions/node/v16.14.2/lib/node_modules/typescript/lib/tsserver.js --logFile /home/islom/Projects/Next/travel-app/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/70eb53dc64077afabc1e85eec3ca1cdc/tscancellation*
+Info 3    [18:16:30.458] Platform: linux NodeVersion: 16 CaseSensitive: true
+Info 4    [18:16:30.458] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [18:16:30.547] Format host information updated
+Info 6    [18:16:30.650] Search path: /home/islom/Projects/Next/travel-app/pages
+Info 7    [18:16:30.664] For info: /home/islom/Projects/Next/travel-app/pages/index.tsx :: Config file name: /home/islom/Projects/Next/travel-app/tsconfig.json
+Info 8    [18:16:30.665] Creating configuration project /home/islom/Projects/Next/travel-app/tsconfig.json
+Info 9    [18:16:30.893] Config: /home/islom/Projects/Next/travel-app/tsconfig.json : {
+ "rootNames": [
+  "/home/islom/Projects/Next/travel-app/next-env.d.ts",
+  "/home/islom/Projects/Next/travel-app/app/constants.ts",
+  "/home/islom/Projects/Next/travel-app/app/queries.ts",
+  "/home/islom/Projects/Next/travel-app/app/components/screens/auth/auth.interface.ts",
+  "/home/islom/Projects/Next/travel-app/app/types/common.ts",
+  "/home/islom/Projects/Next/travel-app/app/types/place.ts",
+  "/home/islom/Projects/Next/travel-app/app/utils/clearText.ts",
+  "/home/islom/Projects/Next/travel-app/pages/api/auth/[...nextauth].ts",
+  "/home/islom/Projects/Next/travel-app/pages/api/sanity/signUp.ts",
+  "/home/islom/Projects/Next/travel-app/app/sanity.tsx",
+  "/home/islom/Projects/Next/travel-app/app/components/common/Layout.tsx",
+  "/home/islom/Projects/Next/travel-app/app/components/common/footer/Footer.tsx",
+  "/home/islom/Projects/Next/travel-app/app/components/elements/Filters/Filters.tsx",
+  "/home/islom/Projects/Next/travel-app/app/components/elements/Home/HeadingSection/HeadingSection.tsx",
+  "/home/islom/Projects/Next/travel-app/app/components/elements/Home/PopularPlaces/PopularPlaces.tsx",
+  "/home/islom/Projects/Next/travel-app/app/components/elements/Search/Search.tsx",
+  "/home/islom/Projects/Next/travel-app/app/components/screens/auth/Auth.tsx",
+  "/home/islom/Projects/Next/travel-app/app/components/screens/place/Place.tsx",
+  "/home/islom/Projects/Next/travel-app/app/components/screens/place/BookTrip/BookTrip.tsx",
+  "/home/islom/Projects/Next/travel-app/app/components/screens/place/Detail/Detail.tsx",
+  "/home/islom/Projects/Next/travel-app/app/components/screens/place/Header/BackButton.tsx",
+  "/home/islom/Projects/Next/travel-app/app/components/screens/place/Header/Favorites.tsx",
+  "/home/islom/Projects/Next/travel-app/app/components/screens/place/Header/Header.tsx",
+  "/home/islom/Projects/Next/travel-app/app/components/screens/place/Heading/Heading.tsx",
+  "/home/islom/Projects/Next/travel-app/app/components/screens/place/Information/Information.tsx",
+  "/home/islom/Projects/Next/travel-app/app/components/screens/place/Information/Map.tsx",
+  "/home/islom/Projects/Next/travel-app/app/components/screens/place/Wrapper/Wrapper.tsx",
+  "/home/islom/Projects/Next/travel-app/app/utils/Meta.tsx",
+  "/home/islom/Projects/Next/travel-app/pages/_app.tsx",
+  "/home/islom/Projects/Next/travel-app/pages/auth.tsx",
+  "/home/islom/Projects/Next/travel-app/pages/explore.tsx",
+  "/home/islom/Projects/Next/travel-app/pages/index.tsx",
+  "/home/islom/Projects/Next/travel-app/pages/profile.tsx",
+  "/home/islom/Projects/Next/travel-app/pages/place/[slug].tsx"
+ ],
+ "options": {
+  "target": 99,
+  "lib": [
+   "lib.dom.d.ts",
+   "lib.dom.iterable.d.ts",
+   "lib.esnext.d.ts"
+  ],
+  "allowJs": true,
+  "skipLibCheck": true,
+  "strict": true,
+  "forceConsistentCasingInFileNames": true,
+  "noEmit": true,
+  "incremental": true,
+  "esModuleInterop": true,
+  "module": 2,
+  "moduleResolution": 2,
+  "resolveJsonModule": true,
+  "isolatedModules": true,
+  "jsx": 1,
+  "baseUrl": "/home/islom/Projects/Next/travel-app/app",
+  "paths": {
+   "@/components/*": [
+    "components/*"
+   ],
+   "@/screens/*": [
+    "components/screens/*"
+   ],
+   "@/common/*": [
+    "components/common/*"
+   ],
+   "@/elements/*": [
+    "components/elements/*"
+   ],
+   "@/types/*": [
+    "types/*"
+   ],
+   "@/images/*": [
+    "../public/assets/images/*"
+   ],
+   "@/styles/*": [
+    "../public/assets/styles/*"
+   ],
+   "@lib/*": [
+    "./lib/*"
+   ]
+  },
+  "pathsBasePath": "/home/islom/Projects/Next/travel-app",
+  "configFilePath": "/home/islom/Projects/Next/travel-app/tsconfig.json"
+ }
+}
+Info 10   [18:16:36.686] Starting updateGraphWorker: Project: /home/islom/Projects/Next/travel-app/tsconfig.json
+Info 11   [18:17:05.181] Finishing updateGraphWorker: Project: /home/islom/Projects/Next/travel-app/tsconfig.json Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 28493.293720999965ms
+Info 12   [18:17:05.181] Project '/home/islom/Projects/Next/travel-app/tsconfig.json' (Configured)
+Info 13   [18:17:05.181] 	Files (501)
+
+Info 14   [18:17:05.182] -----------------------------------------------
+Info 15   [18:17:05.481] AutoImportProviderProject: found 2 root files in 2 dependencies in 235.1815029999707 ms
+Info 16   [18:17:05.499] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 17   [18:17:06.514] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 1015.3751759999432ms
+Info 18   [18:17:06.514] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 19   [18:17:06.515] 	Files (35)
+
+Info 20   [18:17:06.515] -----------------------------------------------
+Info 21   [18:17:11.026] DirectoryWatcher:: Triggered with /home/islom/Projects/Next/travel-app/.log/ti-9572.log 0:: WatchInfo: /home/islom/Projects/Next/travel-app 1 undefined Config: /home/islom/Projects/Next/travel-app/tsconfig.json WatchType: Wild card directory
+Info 22   [18:17:11.040] Project: /home/islom/Projects/Next/travel-app/tsconfig.json Detected file add/remove of non supported extension: /home/islom/Projects/Next/travel-app/.log/ti-9572.log
+Info 23   [18:17:11.041] Elapsed:: 13.872292999876663ms DirectoryWatcher:: Triggered with /home/islom/Projects/Next/travel-app/.log/ti-9572.log 0:: WatchInfo: /home/islom/Projects/Next/travel-app 1 undefined Config: /home/islom/Projects/Next/travel-app/tsconfig.json WatchType: Wild card directory
+Info 24   [18:17:14.911] Starting updateGraphWorker: Project: /home/islom/Projects/Next/travel-app/tsconfig.json
+Info 25   [18:17:15.216] Finishing updateGraphWorker: Project: /home/islom/Projects/Next/travel-app/tsconfig.json Version: 2 structureChanged: false structureIsReused:: Completely Elapsed: 305.4060790000949ms
+Info 26   [18:17:15.216] Different program with same set of files
+Info 27   [18:17:15.230] getCompletionData: Get current token: 0.10739900008775294
+Info 28   [18:17:15.231] getCompletionData: Is inside comment: 0.2360239999834448
+Info 29   [18:17:15.231] getCompletionData: Get previous token: 0.29069799999706447
+Info 30   [18:17:15.233] getCompletionsAtPosition: isCompletionListBlocker: 0.9566579998936504
+Info 31   [18:17:15.260] getExportInfoMap: cache miss or empty; calculating new results
+Info 32   [18:17:18.768] forEachExternalModuleToImportFrom autoImportProvider: 36.3007590000052
+Info 33   [18:17:18.768] getExportInfoMap: done in 3508.113191000186 ms
+Info 34   [18:17:18.985] collectAutoImports: resolved 5 module specifiers, plus 5 ambient and 28 from cache
+Info 35   [18:17:18.985] collectAutoImports: response is complete
+Info 36   [18:17:18.985] collectAutoImports: 213.69764999998733
+Info 37   [18:17:18.985] getCompletionData: Semantic work: 3751.950061000185
+Info 38   [18:17:19.757] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 740.9556269999593
+Info 39   [18:17:24.716] getCompletionData: Get current token: 0.04320000018924475
+Info 40   [18:17:24.716] getCompletionData: Is inside comment: 0.0715000000782311
+Info 41   [18:17:24.716] getCompletionData: Get previous token: 0.15051200008019805
+Info 42   [18:17:24.717] getCompletionsAtPosition: isCompletionListBlocker: 0.03948800009675324
+Info 43   [18:17:24.738] getExportInfoMap: cache hit
+Info 44   [18:17:24.941] collectAutoImports: resolved 0 module specifiers, plus 5 ambient and 33 from cache
+Info 45   [18:17:24.942] collectAutoImports: response is complete
+Info 46   [18:17:24.942] collectAutoImports: 201.26225699996576
+Info 47   [18:17:24.942] getCompletionData: Semantic work: 224.7563589999918
+Info 48   [18:17:25.351] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 408.7257600000594
+Info 49   [18:17:25.363] getCompletionData: Get current token: 0.04235000000335276
+Info 50   [18:17:25.363] getCompletionData: Is inside comment: 0.07070000004023314
+Info 51   [18:17:25.364] getCompletionData: Get previous token: 0.60319699998945
+Info 52   [18:17:25.365] getCompletionsAtPosition: isCompletionListBlocker: 0.04218699992634356
+Info 53   [18:17:25.389] getExportInfoMap: cache hit
+Info 54   [18:17:25.427] collectAutoImports: resolved 0 module specifiers, plus 5 ambient and 33 from cache
+Info 55   [18:17:25.428] collectAutoImports: response is complete
+Info 56   [18:17:25.428] collectAutoImports: 37.40158299985342
+Info 57   [18:17:25.428] getCompletionData: Semantic work: 62.44234299985692
+Info 58   [18:17:26.196] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 750.9157759998925
+Info 59   [18:17:26.227] getCompletionData: Get current token: 0.04465000005438924
+Info 60   [18:17:26.227] getCompletionData: Is inside comment: 0.0659880000166595
+Info 61   [18:17:26.227] getCompletionData: Get previous token: 0.16199900000356138
+Info 62   [18:17:26.227] getCompletionsAtPosition: isCompletionListBlocker: 0.038736999966204166
+Info 63   [18:17:26.252] getExportInfoMap: cache hit
+Info 64   [18:17:26.296] collectAutoImports: resolved 0 module specifiers, plus 5 ambient and 33 from cache
+Info 65   [18:17:26.296] collectAutoImports: response is complete
+Info 66   [18:17:26.296] collectAutoImports: 42.7462260001339
+Info 67   [18:17:26.297] getCompletionData: Semantic work: 68.96724499994889
+Info 68   [18:17:26.951] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 654.1687539999839
+Info 69   [18:17:27.095] Starting updateGraphWorker: Project: /home/islom/Projects/Next/travel-app/tsconfig.json
+Info 70   [18:17:27.697] Finishing updateGraphWorker: Project: /home/islom/Projects/Next/travel-app/tsconfig.json Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 581.2339610001072ms
+Info 71   [18:17:27.704] Different program with same set of files
+Info 72   [18:17:27.705] getCompletionData: Get current token: 0.0516249998472631
+Info 73   [18:17:27.712] getCompletionData: Is inside comment: 0.18360000010579824
+Info 74   [18:17:27.712] getCompletionData: Get previous token: 0.142437000060454
+Info 75   [18:17:27.716] getCompletionsAtPosition: isCompletionListBlocker: 0.07141200010664761
+Info 76   [18:17:27.827] getExportInfoMap: cache hit
+Info 77   [18:17:28.979] collectAutoImports: resolved 56 module specifiers, plus 156 ambient and 1719 from cache
+Info 78   [18:17:28.996] collectAutoImports: response is complete
+Info 79   [18:17:28.999] collectAutoImports: 1158.4020379998256
+Info 80   [18:17:29.000] getCompletionData: Semantic work: 1279.8779390000273
+Info 81   [18:17:31.349] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 2294.1581389999483
+Info 82   [18:17:32.106] getCompletionData: Get current token: 0.06159999989904463
+Info 83   [18:17:32.106] getCompletionData: Is inside comment: 0.23888700013048947
+Info 84   [18:17:32.107] getCompletionData: Get previous token: 0.3768109998200089
+Info 85   [18:17:32.111] getCompletionsAtPosition: isCompletionListBlocker: 0.2574870001990348
+Info 86   [18:17:32.397] getExportInfoMap: cache hit
+Info 87   [18:17:34.609] collectAutoImports: resolved 0 module specifiers, plus 156 ambient and 1775 from cache
+Info 88   [18:17:34.642] collectAutoImports: response is complete
+Info 89   [18:17:34.643] collectAutoImports: 2218.48480700003
+Info 90   [18:17:34.643] getCompletionData: Semantic work: 2531.2950500000734
+Info 91   [18:17:36.571] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 1927.6227039999794
+Info 92   [18:17:36.623] getCompletionData: Get current token: 0.043775000143796206
+Info 93   [18:17:36.629] getCompletionData: Is inside comment: 0.20478700008243322
+Info 94   [18:17:36.629] getCompletionData: Get previous token: 0.14583699987269938
+Info 95   [18:17:36.629] getCompletionsAtPosition: isCompletionListBlocker: 0.059400000143796206
+Info 96   [18:17:36.647] getExportInfoMap: cache hit
+Info 97   [18:17:36.806] collectAutoImports: resolved 0 module specifiers, plus 156 ambient and 1775 from cache
+Info 98   [18:17:36.806] collectAutoImports: response is complete
+Info 99   [18:17:36.806] collectAutoImports: 157.8491409998387
+Info 100  [18:17:36.807] getCompletionData: Semantic work: 176.97491300012916
+Info 101  [18:17:37.999] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 1132.7902020001784
+Info 102  [18:17:38.180] getCompletionData: Get current token: 0.04486200003884733
+Info 103  [18:17:38.180] getCompletionData: Is inside comment: 0.06333799986168742
+Info 104  [18:17:38.180] getCompletionData: Get previous token: 0.08785000001080334
+Info 105  [18:17:38.185] getCompletionsAtPosition: isCompletionListBlocker: 0.06032499996945262
+Info 106  [18:17:38.250] getExportInfoMap: cache hit
+Info 107  [18:17:38.859] collectAutoImports: resolved 0 module specifiers, plus 156 ambient and 1775 from cache
+Info 108  [18:17:38.859] collectAutoImports: response is complete
+Info 109  [18:17:38.859] collectAutoImports: 608.1943299998529
+Info 110  [18:17:38.859] getCompletionData: Semantic work: 673.3377380000893
+Info 111  [18:17:39.594] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 730.8691679998301
+Info 112  [18:17:39.834] Starting updateGraphWorker: Project: /home/islom/Projects/Next/travel-app/tsconfig.json
+Info 113  [18:17:40.234] Finishing updateGraphWorker: Project: /home/islom/Projects/Next/travel-app/tsconfig.json Version: 4 structureChanged: false structureIsReused:: Completely Elapsed: 381.1583119998686ms
+Info 114  [18:17:40.234] Different program with same set of files
+Info 115  [18:17:40.237] Starting updateGraphWorker: Project: /home/islom/Projects/Next/travel-app/tsconfig.json
+Info 116  [18:17:40.374] Finishing updateGraphWorker: Project: /home/islom/Projects/Next/travel-app/tsconfig.json Version: 5 structureChanged: false structureIsReused:: Completely Elapsed: 136.10929899988696ms
+Info 117  [18:17:40.374] Different program with same set of files
+Info 118  [18:17:40.381] Starting updateGraphWorker: Project: /home/islom/Projects/Next/travel-app/tsconfig.json
+Info 119  [18:17:40.511] Finishing updateGraphWorker: Project: /home/islom/Projects/Next/travel-app/tsconfig.json Version: 6 structureChanged: false structureIsReused:: Completely Elapsed: 129.56182000017725ms
+Info 120  [18:17:40.511] Different program with same set of files
+Info 121  [18:17:40.512] Starting updateGraphWorker: Project: /home/islom/Projects/Next/travel-app/tsconfig.json
+Info 122  [18:17:40.905] Finishing updateGraphWorker: Project: /home/islom/Projects/Next/travel-app/tsconfig.json Version: 7 structureChanged: false structureIsReused:: Completely Elapsed: 393.11130699981004ms
+Info 123  [18:17:40.915] Different program with same set of files
+Info 124  [18:17:40.954] Starting updateGraphWorker: Project: /home/islom/Projects/Next/travel-app/tsconfig.json
+Info 125  [18:17:41.308] Finishing updateGraphWorker: Project: /home/islom/Projects/Next/travel-app/tsconfig.json Version: 8 structureChanged: false structureIsReused:: Completely Elapsed: 346.3315889998339ms
+Info 126  [18:17:41.311] Different program with same set of files
+Info 127  [18:17:41.315] Starting updateGraphWorker: Project: /home/islom/Projects/Next/travel-app/tsconfig.json
+Info 128  [18:17:41.720] Finishing updateGraphWorker: Project: /home/islom/Projects/Next/travel-app/tsconfig.json Version: 9 structureChanged: false structureIsReused:: Completely Elapsed: 403.8461209998932ms
+Info 129  [18:17:41.720] Different program with same set of files
+Info 130  [18:17:45.260] Starting updateGraphWorker: Project: /home/islom/Projects/Next/travel-app/tsconfig.json
+Info 131  [18:17:45.529] Finishing updateGraphWorker: Project: /home/islom/Projects/Next/travel-app/tsconfig.json Version: 10 structureChanged: false structureIsReused:: Completely Elapsed: 268.6822860001121ms
+Info 132  [18:17:45.538] Different program with same set of files
+Info 133  [18:17:45.546] getCompletionData: Get current token: 0.09994899993762374
+Info 134  [18:17:45.551] getCompletionData: Is inside comment: 0.23809899995103478
+Info 135  [18:17:45.552] getCompletionData: Get previous token: 0.15123699977993965
+Info 136  [18:17:45.552] getCompletionsAtPosition: isCompletionListBlocker: 0.057136999908834696
+Info 137  [18:17:45.639] getExportInfoMap: cache hit
+Info 138  [18:17:45.882] collectAutoImports: resolved 0 module specifiers, plus 156 ambient and 1775 from cache
+Info 139  [18:17:45.882] collectAutoImports: response is complete
+Info 140  [18:17:45.882] collectAutoImports: 224.21044200006872
+Info 141  [18:17:45.882] getCompletionData: Semantic work: 325.2229460000526
+Info 142  [18:17:46.880] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 997.2498349999078
+Info 143  [18:17:50.495] getCompletionData: Get current token: 0.04491199995391071
+Info 144  [18:17:50.496] getCompletionData: Is inside comment: 0.06700000003911555
+Info 145  [18:17:50.496] getCompletionData: Get previous token: 0.08973799995146692
+Info 146  [18:17:50.496] getCompletionsAtPosition: isCompletionListBlocker: 0.052749000024050474
+Info 147  [18:17:50.509] getExportInfoMap: cache hit
+Info 148  [18:17:51.115] collectAutoImports: resolved 0 module specifiers, plus 156 ambient and 1775 from cache
+Info 149  [18:17:51.134] collectAutoImports: response is complete
+Info 150  [18:17:51.137] collectAutoImports: 627.5670679998584
+Info 151  [18:17:51.138] getCompletionData: Semantic work: 641.389856000198
+Info 152  [18:17:52.270] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 1104.6052349999081
+Info 153  [18:17:52.371] getCompletionData: Get current token: 0.04636300005950034
+Info 154  [18:17:52.379] getCompletionData: Is inside comment: 0.15828699991106987
+Info 155  [18:17:52.380] getCompletionData: Get previous token: 0.10945000010542572
+Info 156  [18:17:52.380] getCompletionsAtPosition: isCompletionListBlocker: 0.04606200009584427
+Info 157  [18:17:52.426] getExportInfoMap: cache hit
+Info 158  [18:17:53.199] collectAutoImports: resolved 0 module specifiers, plus 156 ambient and 1775 from cache
+Info 159  [18:17:53.211] collectAutoImports: response is complete
+Info 160  [18:17:53.211] collectAutoImports: 779.2961200000718
+Info 161  [18:17:53.212] getCompletionData: Semantic work: 831.0643130000681
+Info 162  [18:17:53.813] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 601.5900309998542
+Info 163  [18:17:53.952] getCompletionData: Get current token: 0.042836999986320734
+Info 164  [18:17:53.953] getCompletionData: Is inside comment: 0.13448700006119907
+Info 165  [18:17:53.956] getCompletionData: Get previous token: 0.18136200006119907
+Info 166  [18:17:53.956] getCompletionsAtPosition: isCompletionListBlocker: 0.04607499996200204
+Info 167  [18:17:53.993] getExportInfoMap: cache hit
+Info 168  [18:17:54.446] collectAutoImports: resolved 0 module specifiers, plus 156 ambient and 1775 from cache
+Info 169  [18:17:54.447] collectAutoImports: response is complete
+Info 170  [18:17:54.447] collectAutoImports: 449.4589459998533
+Info 171  [18:17:54.448] getCompletionData: Semantic work: 488.7391480000224
+Info 172  [18:17:55.271] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 597.9517119999509
+Info 173  [18:17:55.412] Starting updateGraphWorker: Project: /home/islom/Projects/Next/travel-app/tsconfig.json
+Info 174  [18:17:55.606] Finishing updateGraphWorker: Project: /home/islom/Projects/Next/travel-app/tsconfig.json Version: 11 structureChanged: false structureIsReused:: Completely Elapsed: 188.45822699996643ms
+Info 175  [18:17:55.627] Different program with same set of files
+Info 176  [18:17:55.628] getCompletionData: Get current token: 0.052275000140070915
+Info 177  [18:17:55.628] getCompletionData: Is inside comment: 0.07496199989691377
+Info 178  [18:17:55.629] getCompletionData: Get previous token: 0.11268700007349253
+Info 179  [18:17:55.629] getCompletionsAtPosition: isCompletionListBlocker: 0.06229900009930134
+Info 180  [18:17:55.695] getExportInfoMap: cache hit
+Info 181  [18:17:56.073] collectAutoImports: resolved 0 module specifiers, plus 49 ambient and 1015 from cache
+Info 182  [18:17:56.081] collectAutoImports: response is complete
+Info 183  [18:17:56.084] collectAutoImports: 363.70180299994536
+Info 184  [18:17:56.084] getCompletionData: Semantic work: 446.4615819999017
+Info 185  [18:17:56.833] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 748.5716640001629

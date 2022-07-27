@@ -1,0 +1,18 @@
+.wrapper {
+	height: 100%;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 100% 50%;
+	margin-bottom: 5vh;
+	@media (max-width:480px) {
+		background-size: contain;
+	  }
+
+	> div {
+		position: relative;
+		z-index: 1;
+		max-width: 480px;
+		margin: 0 auto;
+	}
+}

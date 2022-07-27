@@ -1,0 +1,82 @@
+[12:48:28.692] Global cache location '/home/islom/.cache/typescript/4.7', safe file path '/home/islom/Projects/Next/travel-app/node_modules/typescript/lib/typingSafeList.json', types map path /home/islom/Projects/Next/travel-app/node_modules/typescript/lib/typesMap.json
+[12:48:28.722] Processing cache location '/home/islom/.cache/typescript/4.7'
+[12:48:28.723] Trying to find '/home/islom/.cache/typescript/4.7/package.json'...
+[12:48:28.787] Loaded content of '/home/islom/.cache/typescript/4.7/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.602"},"devDependencies":{"@types/babel__core":"^7.1.19","@types/babel__preset-env":"^7.9.2","@types/balanced-match":"^1.0.2","@types/brace-expansion":"^1.1.0","@types/concat-map":"^0.0.1","@types/debug":"^4.1.7","@types/eslint":"^8.4.5","@types/eventsource":"^1.1.9","@types/htmlparser2":"^3.10.3","@types/inquirer":"^8.2.1","@types/jest":"^28.1.5","@types/lodash":"^4.14.182","@types/mime":"^2.0.3","@types/minimatch":"^3.0.5","@types/node":"^18.0.4","@types/node-localstorage":"^1.3.0","@types/nodemon":"^1.19.2","@types/nprogress":"^0.2.0","@types/pako":"^2.0.0","@types/path-browserify":"^1.0.0","@types/prettier":"^2.6.3","@types/react":"^18.0.15","@types/react-dom":"^18.0.6","@types/react-simple-maps":"^1.0.8","@types/sharp":"^0.30.4","@types/supports-color":"^8.1.1","@types/utf-8-validate":"^5.0.0","@types/webpack":"^5.28.0","@types/websocket":"^1.0.5"}}
+[12:48:28.787] Loaded content of '/home/islom/.cache/typescript/4.7/package-lock.json'
+[12:48:28.902] Adding entry into typings cache: 'babel__core' => '/home/islom/.cache/typescript/4.7/node_modules/@types/babel__core/index.d.ts'
+[12:48:28.931] Adding entry into typings cache: 'babel__preset-env' => '/home/islom/.cache/typescript/4.7/node_modules/@types/babel__preset-env/index.d.ts'
+[12:48:28.976] Adding entry into typings cache: 'balanced-match' => '/home/islom/.cache/typescript/4.7/node_modules/@types/balanced-match/index.d.ts'
+[12:48:28.982] Adding entry into typings cache: 'brace-expansion' => '/home/islom/.cache/typescript/4.7/node_modules/@types/brace-expansion/index.d.ts'
+[12:48:28.989] Adding entry into typings cache: 'concat-map' => '/home/islom/.cache/typescript/4.7/node_modules/@types/concat-map/index.d.ts'
+[12:48:29.001] Adding entry into typings cache: 'debug' => '/home/islom/.cache/typescript/4.7/node_modules/@types/debug/index.d.ts'
+[12:48:29.075] Adding entry into typings cache: 'eslint' => '/home/islom/.cache/typescript/4.7/node_modules/@types/eslint/index.d.ts'
+[12:48:29.158] Adding entry into typings cache: 'eventsource' => '/home/islom/.cache/typescript/4.7/node_modules/@types/eventsource/index.d.ts'
+[12:48:29.242] Adding entry into typings cache: 'htmlparser2' => '/home/islom/.cache/typescript/4.7/node_modules/@types/htmlparser2/index.d.ts'
+[12:48:29.280] Adding entry into typings cache: 'inquirer' => '/home/islom/.cache/typescript/4.7/node_modules/@types/inquirer/index.d.ts'
+[12:48:29.303] Adding entry into typings cache: 'jest' => '/home/islom/.cache/typescript/4.7/node_modules/@types/jest/index.d.ts'
+[12:48:29.347] Adding entry into typings cache: 'lodash' => '/home/islom/.cache/typescript/4.7/node_modules/@types/lodash/index.d.ts'
+[12:48:29.353] Adding entry into typings cache: 'mime' => '/home/islom/.cache/typescript/4.7/node_modules/@types/mime/index.d.ts'
+[12:48:29.370] Adding entry into typings cache: 'minimatch' => '/home/islom/.cache/typescript/4.7/node_modules/@types/minimatch/index.d.ts'
+[12:48:29.414] Adding entry into typings cache: 'node' => '/home/islom/.cache/typescript/4.7/node_modules/@types/node/index.d.ts'
+[12:48:29.502] Adding entry into typings cache: 'node-localstorage' => '/home/islom/.cache/typescript/4.7/node_modules/@types/node-localstorage/index.d.ts'
+[12:48:29.535] Adding entry into typings cache: 'nodemon' => '/home/islom/.cache/typescript/4.7/node_modules/@types/nodemon/index.d.ts'
+[12:48:29.578] Adding entry into typings cache: 'nprogress' => '/home/islom/.cache/typescript/4.7/node_modules/@types/nprogress/index.d.ts'
+[12:48:29.655] Adding entry into typings cache: 'pako' => '/home/islom/.cache/typescript/4.7/node_modules/@types/pako/index.d.ts'
+[12:48:29.690] Adding entry into typings cache: 'path-browserify' => '/home/islom/.cache/typescript/4.7/node_modules/@types/path-browserify/index.d.ts'
+[12:48:29.755] Adding entry into typings cache: 'prettier' => '/home/islom/.cache/typescript/4.7/node_modules/@types/prettier/index.d.ts'
+[12:48:29.848] Adding entry into typings cache: 'react' => '/home/islom/.cache/typescript/4.7/node_modules/@types/react/index.d.ts'
+[12:48:29.877] Adding entry into typings cache: 'react-dom' => '/home/islom/.cache/typescript/4.7/node_modules/@types/react-dom/index.d.ts'
+[12:48:29.909] Adding entry into typings cache: 'react-simple-maps' => '/home/islom/.cache/typescript/4.7/node_modules/@types/react-simple-maps/index.d.ts'
+[12:48:29.938] Adding entry into typings cache: 'sharp' => '/home/islom/.cache/typescript/4.7/node_modules/@types/sharp/index.d.ts'
+[12:48:30.012] Adding entry into typings cache: 'supports-color' => '/home/islom/.cache/typescript/4.7/node_modules/@types/supports-color/index.d.ts'
+[12:48:30.077] Adding entry into typings cache: 'utf-8-validate' => '/home/islom/.cache/typescript/4.7/node_modules/@types/utf-8-validate/index.d.ts'
+[12:48:30.172] Adding entry into typings cache: 'webpack' => '/home/islom/.cache/typescript/4.7/node_modules/webpack/types.d.ts'
+[12:48:30.198] Adding entry into typings cache: 'websocket' => '/home/islom/.cache/typescript/4.7/node_modules/@types/websocket/index.d.ts'
+[12:48:30.198] Finished processing cache location '/home/islom/.cache/typescript/4.7'
+[12:48:30.199] Process id: 9322
+[12:48:30.200] NPM location: /home/islom/.nvm/versions/node/v16.14.2/bin/npm (explicit '--npmLocation' not  provided)
+[12:48:30.200] validateDefaultNpmLocation: false
+[12:48:30.201] Npm config file: /home/islom/.cache/typescript/4.7/package.json
+[12:48:30.201] Updating types-registry npm package...
+[12:48:30.202] Exec: /home/islom/.nvm/versions/node/v16.14.2/bin/npm install --ignore-scripts types-registry@latest
+[12:48:36.165]     Succeeded. stdout:
+    
+    up to date, audited 145 packages in 5s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+[12:48:36.166] Updated types-registry npm package
+[12:55:12.541] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":[],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/islom/Projects/Next/travel-app/pages","kind":"discover"}
+[12:55:12.814] Loaded safelist from types map file '/home/islom/Projects/Next/travel-app/node_modules/typescript/lib/typesMap.json'
+[12:55:12.816] Explicitly included types: []
+[12:55:12.827] Inferred typings from unresolved imports: []
+[12:55:12.831] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/islom/Projects/Next/travel-app/pages/bower_components","/home/islom/Projects/Next/travel-app/pages/node_modules"]}
+[12:55:12.832] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/islom/Projects/Next/travel-app/pages/bower_components","/home/islom/Projects/Next/travel-app/pages/node_modules"]}
+[12:55:12.836] DirectoryWatcher:: Added:: WatchInfo: /home/islom/Projects/Next/travel-app/pages/bower_components
+[12:55:12.844] DirectoryWatcher:: Added:: WatchInfo: /home/islom/Projects/Next/travel-app/pages/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[12:55:12.896] Elapsed:: 45.1124200001359ms DirectoryWatcher:: Added:: WatchInfo: /home/islom/Projects/Next/travel-app/pages/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[12:55:12.897] DirectoryWatcher:: Added:: WatchInfo: /home/islom/Projects/Next/travel-app/pages/node_modules
+[12:55:12.897] DirectoryWatcher:: Added:: WatchInfo: /home/islom/Projects/Next/travel-app/pages/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[12:55:12.898] Elapsed:: 1.1314159999601543ms DirectoryWatcher:: Added:: WatchInfo: /home/islom/Projects/Next/travel-app/pages/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[12:55:12.899] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[12:55:12.911] Response has been sent.
+[12:55:12.911] No new typings were requested as a result of typings discovery
+[13:03:50.720] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":[],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/islom/Projects/Next/travel-app/app/components/screens/auth","kind":"discover"}
+[13:03:50.780] Explicitly included types: []
+[13:03:50.782] Inferred typings from unresolved imports: []
+[13:03:50.784] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/islom/Projects/Next/travel-app/app/components/screens/auth/bower_components","/home/islom/Projects/Next/travel-app/app/components/screens/auth/node_modules"]}
+[13:03:50.784] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/islom/Projects/Next/travel-app/app/components/screens/auth/bower_components","/home/islom/Projects/Next/travel-app/app/components/screens/auth/node_modules"]}
+[13:03:50.785] DirectoryWatcher:: Added:: WatchInfo: /home/islom/Projects/Next/travel-app/app/components/screens/auth/bower_components
+[13:03:50.785] DirectoryWatcher:: Added:: WatchInfo: /home/islom/Projects/Next/travel-app/app/components/screens/auth/bower_components 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[13:03:50.817] Elapsed:: 20.952639000024647ms DirectoryWatcher:: Added:: WatchInfo: /home/islom/Projects/Next/travel-app/app/components/screens/auth/bower_components 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[13:03:50.831] DirectoryWatcher:: Added:: WatchInfo: /home/islom/Projects/Next/travel-app/app/components/screens/auth/node_modules
+[13:03:50.832] DirectoryWatcher:: Added:: WatchInfo: /home/islom/Projects/Next/travel-app/app/components/screens/auth/node_modules 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[13:03:50.842] Elapsed:: 8.78765599988401ms DirectoryWatcher:: Added:: WatchInfo: /home/islom/Projects/Next/travel-app/app/components/screens/auth/node_modules 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[13:03:50.842] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[13:03:50.843] Response has been sent.
+[13:03:50.844] No new typings were requested as a result of typings discovery
