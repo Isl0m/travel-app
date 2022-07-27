@@ -1,4 +1,4 @@
-import { FC, MouseEvent, useState } from 'react'
+import { MouseEvent, FC, useState } from 'react'
 import { SubmitHandler, useForm } from 'react-hook-form'
 import { signUp } from 'next-auth-sanity/client'
 import { signIn } from 'next-auth/react'
@@ -23,17 +23,19 @@ const Auth: FC = () => {
 	const onSubmit: SubmitHandler<IAuthFields> = async data => {
 		if (typeForm === 'Register') {
 			const response = await signUp(data)
+			//@ts-ignore
 			if (response.error) toast.error(response.error)
 		} else {
 			const response = await signIn('sanity-login', {
 				redirect: false,
 				...data
 			})
+			//@ts-ignore
 			if (response.error) toast.error(response.error)
 		}
 	}
 
-	const handleTypeForm = (e: MouseEvent<HTMLInputElement>) => {
+	const handleTypeForm = (e: MouseEvent<HTMLButtonElement>) => {
 		e.preventDefault()
 		setTypeForm(reverseTypeForm)
 	}
