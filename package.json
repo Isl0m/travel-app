@@ -15,6 +15,7 @@
     "@sanity/image-url": "^1.0.1",
     "@types/classnames": "^2.3.1",
     "@types/react-simple-maps": "^1.0.8",
+    "classnames": "^2.3.1",
     "lodash": "^4.17.21",
     "material-icons": "^1.11.7",
     "next": "12.2.3",

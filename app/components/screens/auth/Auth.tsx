@@ -7,10 +7,10 @@ import { toast } from 'react-toastify'
 import Layout from '@/components/common/Layout'
 import s from './Auth.module.scss'
 import { IAuthFields } from './auth.interface'
-import {emailRegex, passwordRegex} from '../../../constants'
+import { emailRegex, passwordRegex } from '../../../constants'
 
 const Auth: FC = () => {
-	const [typeForm, setTypeForm] = useState<'Login'|'Register'>('Login');
+	const [typeForm, setTypeForm] = useState<'Login' | 'Register'>('Login')
 
 	const {
 		handleSubmit,
@@ -21,10 +21,10 @@ const Auth: FC = () => {
 	const reverseTypeForm = typeForm === 'Register' ? 'Login' : 'Register'
 
 	const onSubmit: SubmitHandler<IAuthFields> = async data => {
-		if(typeForm==='Register'){
+		if (typeForm === 'Register') {
 			const response = await signUp(data)
 			if (response.error) toast.error(response.error)
-		}else{
+		} else {
 			const response = await signIn('sanity-login', {
 				redirect: false,
 				...data
@@ -33,7 +33,7 @@ const Auth: FC = () => {
 		}
 	}
 
-	const handleTypeForm = (e:MouseEvent<HTMLInputElement>) => {
+	const handleTypeForm = (e: MouseEvent<HTMLInputElement>) => {
 		e.preventDefault()
 		setTypeForm(reverseTypeForm)
 	}
@@ -74,13 +74,13 @@ const Auth: FC = () => {
 					{errors.password && (
 						<div className={s.error}>{errors.password.message}</div>
 					)}
-					<button type='submit' className={s.button}>{typeForm}</button>
+					<button type="submit" className={s.button}>
+						{typeForm}
+					</button>
 
 					<div className={s.changeType}>
-							I want
-						<button onClick={handleTypeForm}>
-							{reverseTypeForm}
-						</button>
+						I want
+						<button onClick={handleTypeForm}>{reverseTypeForm}</button>
 					</div>
 				</form>
 			</div>
