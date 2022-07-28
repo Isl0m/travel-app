@@ -1,7 +1,10 @@
-import Layout from '@/common/Layout'
+import Profile from '@/components/screens/profile/Profile'
+import { NextPageAuth } from '@/types/auth'
 
-const Profile = () => {
-	return <Layout>Profile</Layout>
+const ProfilePage: NextPageAuth = () => {
+	return <Profile />
 }
 
-export default Profile
+ProfilePage.isOnlyUser = true
+
+export default ProfilePage

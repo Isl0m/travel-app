@@ -1,14 +1,16 @@
 import NextAuth, { NextAuthOptions } from 'next-auth'
 import { SanityAdapter, SanityCredentials } from 'next-auth-sanity'
-import { client } from 'sanity'
+import { sanityClientServer } from 'sannity.server'
 
 const options: NextAuthOptions = {
-	providers: [SanityCredentials(client)],
+	//@ts-ignore
+	providers: [SanityCredentials(sanityClientServer)],
 	session: {
 		strategy: 'jwt'
 	},
 	secret: 'any-secret-word',
-	adapter: SanityAdapter(client)
+	//@ts-ignore
+	adapter: SanityAdapter(sanityClientServer)
 }
 
 export default NextAuth(options)

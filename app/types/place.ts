@@ -14,7 +14,6 @@ export type TypeCord = {
 	oceania: [number, number]
 }
 
-
 export type TypeSlug = {
 	_type: string
 	current: string

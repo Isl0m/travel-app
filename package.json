@@ -4,15 +4,16 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "echo 'Building Sanity to travel-app' && cd travel-app && yarn && npx @sanity/cli build ../travel-app -y && echo 'Done'",
+    "prebuild": "echo 'Building Sanity to studio' && cd studio && yarn && npx @sanity/cli build ../studio -y && echo 'Done'",
     "build": "next build",
     "start": "next start",
-    "sanity": "cd travel-app && sanity start",
+    "sanity": "cd studio && sanity start",
     "lint": "next lint"
   },
   "dependencies": {
     "@portabletext/react": "^1.0.6",
     "@sanity/image-url": "^1.0.1",
+    "boring-avatars": "^1.7.0",
     "classnames": "^2.3.1",
     "lodash": "^4.17.21",
     "material-icons": "^1.11.7",
@@ -32,10 +33,10 @@
   },
   "devDependencies": {
     "@types/classnames": "^2.3.1",
-    "@types/react-simple-maps": "^1.0.8",
     "@types/lodash": "^4.14.182",
     "@types/node": "^18.0.6",
     "@types/react": "^17.0.19",
+    "@types/react-simple-maps": "^1.0.8",
     "eslint": "8.20.0",
     "eslint-config-next": "12.2.3"
   }

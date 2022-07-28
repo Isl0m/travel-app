@@ -1,17 +1,18 @@
 import { FC } from 'react'
 import { FaCalendar, FaMapMarkerAlt, FaStar } from 'react-icons/fa'
+import { PortableText } from 'sanity'
 
 import { IPlace } from '@/types/place'
-import s from './Information.module.scss'
 import Map from './Map'
-import { PortableText } from 'sanity'
+import s from './Information.module.scss'
 
 interface IInformation {
 	place: IPlace
 }
 
 const Information: FC<IInformation> = ({ place }) => {
-	const duration = place.duration===1?place.duration+' day':place.duration + ' days';
+	const duration =
+		place.duration === '1' ? place.duration + ' day' : place.duration + ' days'
 	return (
 		<>
 			<div className={s.wrapper}>
@@ -20,7 +21,9 @@ const Information: FC<IInformation> = ({ place }) => {
 					<h1>{place.location.city + ', ' + place.location.country}</h1>
 				</div>
 
-				<p>{<PortableText value={place.description} />}</p>
+				<div className={s.description}>
+					{<PortableText value={place.description} />}
+				</div>
 
 				<div className={s.additional}>
 					<div className={s.rating}>

@@ -13,18 +13,19 @@ export interface IPlacePage {
 }
 
 const Place: FC<IPlacePage> = ({ place }) => {
+
 	return (
 		<>
 			<Meta
 				title={`${place.location.city} - ${place.location.country}`}
 				description={`Best routes for traveling - ${place.location.city}`}
-			image={urlFor(place.imagePath).url()}
+				image={urlFor(place.imagePath).url()}
 			/>
-		<Wrapper imagePath={urlFor(place.imagePath).url()}>
-			<Header />
-			<Information place={place} />
-			<BookTrip />
-		</Wrapper>
+			<Wrapper imagePath={urlFor(place.imagePath).url()}>
+				<Header _id={place._id} />
+				<Information place={place} />
+				<BookTrip />
+			</Wrapper>
 		</>
 	)
 }

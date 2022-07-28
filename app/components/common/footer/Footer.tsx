@@ -1,5 +1,7 @@
 import { useRouter } from 'next/router'
+import { useSession, signOut } from 'next-auth/react'
 import s from './Footer.module.scss'
+import Link from 'next/link'
 
 type TypeNavItem = {
 	icon: string
@@ -15,30 +17,38 @@ const navItems: TypeNavItem[] = [
 		link: '/explore'
 	},
 	{
-		icon: 'place',
-		link: '/place/venezia'
+		icon: 'favorite_outline',
+		link: '/favorites'
 	},
 	{
-		icon: 'person_outline',
-		link: '/auth'
+		icon: 'account_circle',
+		link: '/profile'
 	}
 ]
 
 const Footer = () => {
 	const { push, pathname } = useRouter()
-
+	const { data, status } = useSession()
+	if (status === 'loading') 'Loading ...'
+	if (pathname === '/auth') return null
 	return (
 		<footer className={s.footer}>
 			<nav>
-				{navItems.map(({ icon, link }) => (
-					<button
-						className={pathname === link ? s.active : ''}
-						onClick={() => push(link)}
-						key={icon}
-					>
-						<span className="material-icons-outlined">{icon}</span>
-					</button>
-				))}
+				{data ? (
+					navItems.map(({ icon, link }) => (
+						<button
+							className={pathname === link ? s.active : ''}
+							onClick={() => push(link)}
+							key={icon}
+						>
+							<span className="material-icons-outlined">{icon}</span>
+						</button>
+					))
+				) : (
+					<Link href="/auth">
+						<a className={s['go-to-login']}>Go to Login</a>
+					</Link>
+				)}
 			</nav>
 		</footer>
 	)

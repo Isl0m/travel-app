@@ -62,12 +62,13 @@
 		}
 	}
 
-.changeType {
-	text-align: center;
-	color: #ccc;
+	.changeType {
+		text-align: center;
+		color: #ccc;
 
-	> button {
+		> button {
 			color: $accent;
+			font-size: 16px;
+		}
 	}
-}
 }

@@ -5,19 +5,24 @@ import NextProgressBar from 'nextjs-progressbar'
 
 import 'react-toastify/dist/ReactToastify.css'
 import '@/styles/globals.scss'
+import AuthProvider from 'providers/AuthProvider/AuthProvider'
 
-function MyApp({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps: { session, ...pageProps } }: AppProps) {
 	return (
-		<SessionProvider>
+		<>
 			<NextProgressBar
 				color="#eb601e"
 				startPosition={0.3}
 				stopDelayMs={200}
 				height={3}
 			/>
-			<Component {...pageProps} />
-			<ToastContainer theme='dark' draggable={false} />
-		</SessionProvider>
+			<SessionProvider session={session}>
+				<AuthProvider Component={Component}>
+					<Component {...pageProps} />
+					<ToastContainer theme="dark" draggable={false} />
+				</AuthProvider>
+			</SessionProvider>
+		</>
 	)
 }
 
