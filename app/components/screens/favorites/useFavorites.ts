@@ -17,8 +17,10 @@ export const useFavorites = (placeId: string) => {
 					queries.getFavorites(data?.user?.email)
 				)
 				.then(data => {
-					setFavorites(data.places)
-					setCurrentFavoriteId(data._id)
+					if (data) {
+						setFavorites(data.places)
+						setCurrentFavoriteId(data._id)
+					}
 				})
 	}, [data])
 
@@ -26,6 +28,7 @@ export const useFavorites = (placeId: string) => {
 		(_id: string) => favorites?.some(fav => fav._id === _id),
 		[favorites]
 	)
+
 	const addToFavorites = useCallback(async () => {
 		await client
 			.patch(currentFavoriteId)
@@ -38,11 +41,12 @@ export const useFavorites = (placeId: string) => {
 			])
 			.commit()
 			.finally(() => setIsLoading(false))
-			.catch(e => console.error(e))
 	}, [currentFavoriteId, placeId])
 
 	const removeFromFavorites = useCallback(async () => {
-		await client.delete(currentFavoriteId).finally(() => setIsLoading(false))
+		await client
+			.delete({ query: queries.getFovoritesById(currentFavoriteId) })
+			.finally(() => setIsLoading(false))
 	}, [currentFavoriteId])
 
 	const toggleFavorite = useCallback(async () => {

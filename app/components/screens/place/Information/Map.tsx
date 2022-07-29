@@ -7,10 +7,7 @@ import {
 } from 'react-simple-maps'
 import { TypeCord, TypeLocation } from '@/types/place'
 
-import styles from './Information.module.scss'
-
-const geoUrl =
-	'https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json'
+import s from './Information.module.scss'
 
 const regionToCord: TypeCord = {
 	'north-america': [-70, 45],
@@ -22,10 +19,11 @@ const regionToCord: TypeCord = {
 }
 
 const Map: FC<{ location: TypeLocation }> = ({ location }) => {
-	const center = regionToCord[location.region]
+	//@ts-ignore
+	const center: [number, number] = regionToCord[location.region] || [90, 38]
 
 	return (
-		<div className={styles.map}>
+		<div className={s.map}>
 			<ComposableMap width={240} height={140}>
 				<ZoomableGroup
 					zoom={location.zoom ? location.zoom : 0.6}
